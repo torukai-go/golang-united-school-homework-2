@@ -12,6 +12,10 @@ import "math"
 
 type sidesNumber int
 
+const SidesCircle sidesNumber = 0
+const SidesTriangle sidesNumber = 3
+const SidesSquare sidesNumber = 4
+
 func CalcSquare(sideLen float64, sidesNum sidesNumber) float64 {
 	switch sidesNum {
 	case 0:
